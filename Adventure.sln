@@ -5,6 +5,11 @@ VisualStudioVersion = 25.0.1700.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adventure", "Adventure\Adventure.csproj", "{8E56A6C0-57B6-432F-97C3-17131151B9EB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2198CC01-506F-4C6E-9EA3-2AACF23E582F}"
+	ProjectSection(SolutionItems) = preProject
+		ChapterOne.cs = ChapterOne.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

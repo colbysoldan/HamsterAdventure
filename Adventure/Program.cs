@@ -3,6 +3,9 @@
  * by Colby Soldan, June 10, 2022
  * 
  * 
+ * Title text from textartgenerator.net
+ * 
+ * Text images adapted from textart.sh
  * */
 
 using System;
@@ -12,32 +15,32 @@ using System.Text;
 
 namespace Adventure
 {
-    class Game
-    {
-
-    }
-
-    class Item
-    {
-
-    }
-
     class Program
     {
-        static void Main(string[] args)
+       static void Main(string[] args)
         {
+            //Title and welcome
             Title.GameTitle();
 
-            Console.WriteLine("Get ready for your HAMSTER ADVENTURE!");
-            Console.WriteLine("You are a pet hamster looking to find the mystical land of Kichin that your ancestors spoke of round the kibble bowl.");
-            Console.ReadLine();
+            //Choose character name
+            SetUp.GameSetUp();
 
+            Return();
 
-            Console.WriteLine("What would you like your character's name to be?");
-            var charName = Console.ReadLine();
-            Console.WriteLine($"Great! Your character is now named {charName}.");
+            Console.Clear();
+
+            //choose difficulty
+            Difficulty.Choice();
+
         }
 
+        public static void Return()
+        {
+            Console.WriteLine("Press \'Return\' to continue");
+            Console.ReadLine();
+        }
+
+        
         
     }
 }
