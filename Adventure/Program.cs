@@ -36,6 +36,7 @@ namespace Adventure
 
         public static void Return()
         {
+            //This meathod is used as a shortcut so that I don't have to type these two lines of code repeatedly.
             Console.WriteLine("Press \'Return\' to continue");
             Console.ReadLine();
         }

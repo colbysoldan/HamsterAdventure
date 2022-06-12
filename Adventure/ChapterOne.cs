@@ -9,7 +9,10 @@ namespace Adventure
 "\n█╬ █▄█ █▄█ █▄█ ╬█╬ █▄ █▄╬ ╬╬ █╬█ ██▄█ █▄" +
 "\n██ █╬█ █╬█ █╬╬ ╬█╬ █▄ █╬█ ╬╬ █▄█ █╬██ █▄");
 
+			Console.WriteLine("\n\nThe Descent");
+
 			Program.Return();
+			Console.Clear();
 
 			Console.WriteLine("Billy has taken your water bottle for a refill" +
 				"\nand carelessly left your door askew.");
@@ -46,12 +49,12 @@ namespace Adventure
 				case "jump":
 				case "2.":
                     {
-						Console.WriteLine("You climb quietly from your cate and look over the edge of the dresser." +
-                            "\nSuddenly your home seems much further from the ground than you remembered." +
+						Console.WriteLine("You climb quietly from your cage and look over the edge of the dresser." +
+                            "\nSuddenly, your home seems much further from the ground than you remembered." +
                             "\nThe pillow lies a little bit further from the dresser than you would like." +
                             "\nYou crouch down and brace for the jump, then launch off into a free fall." +
                             "\nIt lasts only a few seconds, but you feel like time slows around you." +
-                            "\nThe ground becomes ever closer, and you wonder if you've made your last mistake." +
+                            "\nThe ground comes ever closer, and you wonder if you've made your last mistake." +
                             "\nBut alas! You feel your body land sofly in the center of the pillow.");
 						Program.Return();
 						ChapterTwo.Beginner();
@@ -77,6 +80,7 @@ namespace Adventure
 "\n██ █╬█ █╬█ █╬╬ ╬█╬ █▄ █╬█ ╬╬ █▄█ █╬██ █▄");
 
 			Program.Return();
+			Console.Clear();
 
 			Console.WriteLine("Billy has taken your water bottle for a refill" +
 				"\nand carelessly left your door askew.");
@@ -105,7 +109,7 @@ namespace Adventure
 							"\nbut you dig in with all four paws and regain your control" +
 							"\nbefore scurrying down to the ground.");
 						Program.Return();
-						ChapterTwo.Normal();
+						//ChapterTwo.Normal();
 						break;
 					}
 
@@ -121,7 +125,7 @@ namespace Adventure
 							"\nThe ground becomes ever closer, and you wonder if you've made your last mistake." +
 							"\nBut alas! You feel your body land sofly in the center of the pillow.");
 						Program.Return();
-						ChapterTwo.Normal();
+						//ChapterTwo.Normal();
 						break;
 					}
 				default:
@@ -143,6 +147,7 @@ namespace Adventure
 "\n██ █╬█ █╬█ █╬╬ ╬█╬ █▄ █╬█ ╬╬ █▄█ █╬██ █▄");
 
 			Program.Return();
+			Console.Clear();
 
 			Console.WriteLine("Billy has taken your water bottle for a refill" +
 				"\nand carelessly left your door askew.");
@@ -171,7 +176,7 @@ namespace Adventure
 							"\nbut you dig in with all four paws and regain your control" +
 							"\nbefore scurrying down to the ground.");
 						Program.Return();
-						ChapterTwo.Hard();
+						//ChapterTwo.Hard();
 						break;
 					}
 
@@ -187,7 +192,7 @@ namespace Adventure
 							"\nThe ground becomes ever closer, and you wonder if you've made your last mistake." +
 							"\nBut alas! You feel your body land sofly in the center of the pillow.");
 						Program.Return();
-						ChapterTwo.Hard();
+						//ChapterTwo.Hard();
 						break;
 					}
 				default:

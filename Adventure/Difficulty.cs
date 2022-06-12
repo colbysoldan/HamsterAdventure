@@ -33,8 +33,8 @@ namespace Adventure
                         break;
                     }
                 case "3":
-                case "build":
-                case "build a shelter":
+                case "hard":
+                case "3.":
                     {
                         ChapterOne.Hard();
                         break;

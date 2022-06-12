@@ -5,6 +5,7 @@ namespace Adventure
 	{
         public static void End()
 		{
+			Console.Clear();
 			Console.WriteLine("Thwarted again! Better luck next time.");
 			Console.ReadLine();
 			Console.Clear();
